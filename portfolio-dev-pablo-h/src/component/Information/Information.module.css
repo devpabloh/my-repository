@@ -1,0 +1,108 @@
+
+
+.containerInformation{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1em;
+}
+
+.imagemPerfil{
+    height: 6.125em;
+    width: 6.125em;
+    border-radius: 50%;
+}
+
+.Informations div{
+    margin-top: .5em;
+}
+
+.Informations h1{
+    font-size: 22px;
+}
+
+.Informations p{
+    margin-top: .5em;
+    font-size: 14px;
+}
+
+.listaRedesSociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listaRedesSociais li{
+    list-style-type: none;
+}
+
+.listaRedesSociais li a{
+    font-size: 14px;
+}
+
+.listaRedesSociais li a:hover{
+    background-color: rgba(128, 128, 128, 0.164);
+    border-radius: 10px;
+}
+
+.listaRedesSociais li a img{
+    width: 0.625em;
+    height: 0.625em;
+}
+
+
+@media(min-width:768px) {
+
+    .containerInformation{
+        flex-direction: row-reverse;
+        margin: 0 1em;
+    }
+
+    .imagemPerfil{
+        height: 9.1250em;
+        width: 9.1250em;
+        border: 2px solid rgba(35, 32, 32, 0.397);
+    }
+
+    .listaRedesSociais{
+        justify-content: flex-start;
+        gap: 2em;
+    
+    }
+
+    .listaRedesSociais a{
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .listaRedesSociais li a img{
+        width: 1em;
+        height: 1em;
+    }
+}
+
+@media(min-width:1440px) {
+
+    .imagemPerfil{
+        height: 23em;
+        width: 23em;
+        border: 2px solid rgba(35, 32, 32, 0.397);
+    }   
+
+    .Informations h1{
+        font-size: 3.25em;
+        font-weight: 700;
+    }
+
+    .Informations p{
+        font-size: 1.375em;
+        font-weight: 400;
+    }
+
+    .listaRedesSociais li a{
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+}

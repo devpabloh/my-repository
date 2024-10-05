@@ -1,0 +1,51 @@
+.containerCardsHobbies{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    padding: 1em;
+    height: 508px;
+}
+
+.card{
+    width: 8em;
+    height: 8em;
+    border: 1px solid black;
+    border-radius: .5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    text-align: center;
+}
+
+
+.card:hover{
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.icon{
+    font-size: 60px;
+}
+
+@media (min-width:768px){
+    .containerCardsHobbies{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+        padding: 1em;
+    }
+}
+
+@media (min-width: 1440px) {
+    .containerCardsHobbies{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 40%;
+        margin: 0;
+        padding: 0;
+    }
+
+}

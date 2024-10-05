@@ -1,0 +1,36 @@
+.containerheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 3em;
+    padding-left: 2em;
+    margin-bottom: 1em;
+    
+}
+
+.containerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 2em;
+    
+}
+
+.containerNav li{
+    list-style-type: none;
+}
+
+.containerNav li a{
+    padding: .5em;
+    color: #00000097;
+    
+}
+
+.containerNav li a:hover{
+    background-color: rgba(128, 128, 128, 0.164);
+    border-radius: 10px;
+}
+
+
